@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <title>Desafio conversor de monedas</title>
+
+</head>
+
+<body>
+    <div class="convertion-mod">
+        <h1>Conversor de Monedas</h1>
+
+        <div id="convertionapp" class="convertionapp">
+            <h2>Pesos CLP</h2>
+            <div class="input">
+                <p class="paragraph">Ingresa la cantidad de CLP que quieres convertir</p>
+                <input type="number" id="InputCLP" min="1" max="5" placeholder="Ej: 5000">
+            </div>
+            <div class="select">
+                <p class="paragraph">Moneda a convertir</p>
+                <select name="monedas" id="currencySelect">
+                    <option value="default">Selecciona una moneda</option>
+                    <option value="uf">UF</option>
+                    <option value="utm">UTM</option>
+                  </select>
+            </div>
+            <div class="button">
+                <button id="btnConvertion">Convertir</button>
+            </div>
+            <div class="result">
+                <p id="resultado">Total:</p>
+                <p id="total"></p>
+            </div>
+        </div>
+
+
+        <div class="graphic">
+            <canvas id="graphicmap"></canvas>
+        </div>
+    </div>
+
+
+</body>
+<script src="asset/js/app.js"></script>
+<script src="asset/js/graphics.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</html>

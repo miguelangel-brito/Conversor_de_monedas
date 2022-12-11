@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+body{
+    background-color: #042940;
+    padding: 10%;
+}
+.convertion-mod{
+    width: 100%;
+    text-align: center;
+}
+h1{
+    border-bottom: #fff 2px solid;
+    padding-bottom: 20px;
+}
+.convertionapp{
+    width: 80%;
+    padding: 5%;
+    margin: auto;
+}
+h1,h2,h3,h4,h5,h6,p,input,select,button{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #DBF227;
+}
+#InputCLP{
+    text-align: center;
+    width: 50%;
+    height: 35px;
+    border-radius: 10px;
+    border: 0;
+    color: #042940;
+}
+#currencySelect{
+    text-align: center;
+    width: 50%;
+    height: 35px;
+    border-radius: 10px;
+    border: 0;
+    color: #042940;
+}
+#btnConvertion{
+    text-align: center;
+    width: 50%;
+    height: 35px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 10px;
+    background-color: #9FC131;
+    color: #fff;
+}
+#btnConvertion:hover{
+    background-color: #005C53;
+}
+
+
+
+/*.input{
+    border: blue 1px solid;
+}
+.select{
+    border: salmon 1px solid;
+}
+.button{
+    background-color: rebeccapurple;
+}
+.result{
+    background-color: aqua;
+}*/
+
+
+
